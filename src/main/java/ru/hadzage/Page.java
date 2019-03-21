@@ -4,9 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Page {
-    private String result;
+    private Double result;
 
-    public String getResult() {
+    public Double getResult() {
         return result;
     }
 
